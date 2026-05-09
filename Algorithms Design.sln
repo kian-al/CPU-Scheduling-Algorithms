@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scheduling", "Scheduling", "{0E01D82C-42B2-46F9-8D5D-A47AA36D8E3A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCFS", "FCFS\FCFS.csproj", "{EF507799-263D-4A2F-94E3-BF413053832E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJF", "SJF\SJF.csproj", "{CD112FFD-46B1-4240-9911-73C1B0540CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Round Robin", "Round Robin\Round Robin.csproj", "{66BCAFE5-7EBF-4DE8-B698-164FCE36AE05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF507799-263D-4A2F-94E3-BF413053832E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF507799-263D-4A2F-94E3-BF413053832E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF507799-263D-4A2F-94E3-BF413053832E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF507799-263D-4A2F-94E3-BF413053832E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD112FFD-46B1-4240-9911-73C1B0540CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD112FFD-46B1-4240-9911-73C1B0540CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD112FFD-46B1-4240-9911-73C1B0540CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD112FFD-46B1-4240-9911-73C1B0540CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BCAFE5-7EBF-4DE8-B698-164FCE36AE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BCAFE5-7EBF-4DE8-B698-164FCE36AE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BCAFE5-7EBF-4DE8-B698-164FCE36AE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BCAFE5-7EBF-4DE8-B698-164FCE36AE05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF507799-263D-4A2F-94E3-BF413053832E} = {0E01D82C-42B2-46F9-8D5D-A47AA36D8E3A}
+		{CD112FFD-46B1-4240-9911-73C1B0540CB3} = {0E01D82C-42B2-46F9-8D5D-A47AA36D8E3A}
+		{66BCAFE5-7EBF-4DE8-B698-164FCE36AE05} = {0E01D82C-42B2-46F9-8D5D-A47AA36D8E3A}
+	EndGlobalSection
+EndGlobal
